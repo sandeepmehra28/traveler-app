@@ -21,6 +21,8 @@ class HomeActivity : AppCompatActivity() {
                 R.id.home -> replaceWithFragment(HomeFragment())
                 R.id.fevoIcon -> replaceWithFragment(FavoriteFragment())
                 R.id.profileIcon -> replaceWithFragment(ProfileFragment())
+                R.id.search -> replaceWithFragment(SearchFragment())
+                R.id.explore -> replaceWithFragment(ExploreFragment())
                 else->{
 
                 }
