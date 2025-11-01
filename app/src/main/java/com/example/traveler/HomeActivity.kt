@@ -3,11 +3,13 @@ package com.example.traveler
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
+import com.example.traveler.fragments.ExploreFragment
+import com.example.traveler.fragments.FavoriteFragment
+import com.example.traveler.fragments.HomeFragment
+import com.example.traveler.fragments.ProfileFragment
+import com.example.traveler.fragments.SearchFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import kotlin.text.category
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

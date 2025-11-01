@@ -6,7 +6,7 @@
     android:fitsSystemWindows="true"
     android:background="@drawable/home_bg"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    tools:context=".fragments.HomeFragment">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -398,7 +398,7 @@
             android:layout_height="wrap_content"
             android:text="Top recommendation"
             android:layout_margin="3dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
              android:textColor="@color/black"/>
        <LinearLayout
            android:orientation="horizontal"
@@ -406,13 +406,12 @@
            android:layout_height="wrap_content">
            <LinearLayout
                android:layout_weight="1"
-               android:layout_margin="5dp"
+               android:layout_margin="10dp"
                android:orientation="vertical"
                android:layout_width="180dp"
                android:layout_height="200dp">
                <androidx.cardview.widget.CardView
                    app:cardCornerRadius="15dp"
-                   app:cardElevation="20sp"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent">
                    <ImageView
@@ -431,13 +430,12 @@
            </LinearLayout>
            <LinearLayout
                android:layout_weight="1"
-               android:layout_margin="5dp"
+               android:layout_margin="10dp"
                android:orientation="vertical"
                android:layout_width="180dp"
                android:layout_height="200dp">
                <androidx.cardview.widget.CardView
                    app:cardCornerRadius="15dp"
-                   app:cardElevation="20sp"
                    android:layout_width="match_parent"
                    android:layout_height="match_parent">
                    <ImageView
@@ -461,13 +459,12 @@
             android:layout_height="wrap_content">
             <LinearLayout
                 android:layout_weight="1"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:orientation="vertical"
                 android:layout_width="180dp"
                 android:layout_height="200dp">
                 <androidx.cardview.widget.CardView
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="20sp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
@@ -486,13 +483,12 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="1"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:orientation="vertical"
                 android:layout_width="180dp"
                 android:layout_height="200dp">
                 <androidx.cardview.widget.CardView
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="20sp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
@@ -516,13 +512,12 @@
             android:layout_height="wrap_content">
             <LinearLayout
                 android:layout_weight="1"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:orientation="vertical"
                 android:layout_width="180dp"
                 android:layout_height="200dp">
                 <androidx.cardview.widget.CardView
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="20sp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
@@ -541,13 +536,12 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="1"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:orientation="vertical"
                 android:layout_width="180dp"
                 android:layout_height="200dp">
                 <androidx.cardview.widget.CardView
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="20sp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
@@ -571,13 +565,12 @@
             android:layout_height="wrap_content">
             <LinearLayout
                 android:layout_weight="1"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:orientation="vertical"
                 android:layout_width="180dp"
                 android:layout_height="200dp">
                 <androidx.cardview.widget.CardView
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="20sp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
@@ -596,13 +589,12 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="1"
-                android:layout_margin="5dp"
+                android:layout_margin="10dp"
                 android:orientation="vertical"
                 android:layout_width="180dp"
                 android:layout_height="200dp">
                 <androidx.cardview.widget.CardView
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="20sp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
@@ -620,11 +612,165 @@
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
         </LinearLayout>
-
-
-
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="180dp"
+                android:layout_height="200dp">
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/borabora_oceania"/>
+                    <TextView
+                        android:layout_marginTop="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bora Bora \nOceania"
+                        android:textColor="#FFFFFF"
+                        />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="180dp"
+                android:layout_height="200dp">
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/sydneyoperahouse_oceania"/>
+                    <TextView
+                        android:layout_marginTop="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sydney Opera House \nOceania"
+                        android:textColor="#FFFFFF"
+                        />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="180dp"
+                android:layout_height="200dp">
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/mountkilimanjaro_africa"/>
+                    <TextView
+                        android:layout_marginTop="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mount Kilimanjaro \nAfrica"
+                        android:textColor="#FFFFFF"
+                        />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="180dp"
+                android:layout_height="200dp">
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/machupicchu_southamerica"/>
+                    <TextView
+                        android:layout_marginTop="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Machupicchu\nSouth America"
+                        android:textColor="#FFFFFF"
+                        />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="180dp"
+                android:layout_height="200dp">
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/niagarafall_northamerica"/>
+                    <TextView
+                        android:layout_marginTop="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Niagarafall\nNorth America"
+                        android:textColor="#FFFFFF"
+                        />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="180dp"
+                android:layout_height="200dp">
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/eger_hungary"/>
+                    <TextView
+                        android:layout_marginTop="150dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eger \n hungary"
+                        android:textColor="#FFFFFF"
+                        />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
-
     </ScrollView>
-
 </FrameLayout>
