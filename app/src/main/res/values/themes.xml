@@ -1,13 +1,28 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Traveler" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.Traveler" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <!-- Active indicator style -->
+    <style name="BottomNavActiveIndicator">
+        <!-- background color of the active indicator -->
+        <item name="android:color">@color/active_bg</item>
+        <!-- full opacity -->
+        <item name="android:alpha">1</item>
+        <!-- size of the circular highlight -->
+        <item name="android:width">48dp</item>
+        <item name="android:height">48dp</item>
+        <!-- make it circular -->
+        <item name="shapeAppearanceOverlay">@style/CircularShape</item>
     </style>
 
-    <style name="Theme.Traveler" parent="Base.Theme.Traveler" />
-    <style name="RoundImageView">
+    <style name="CircularShape">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">60%</item>
+        <item name="cornerSize">50%</item>
     </style>
+    <style name="CircularImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
 </resources>
