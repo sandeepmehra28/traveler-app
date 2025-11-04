@@ -9,6 +9,7 @@
       android:layout_height="match_parent">
 
      <LinearLayout
+         android:layout_margin="15dp"
          android:layout_marginTop="30dp"
          android:orientation="vertical"
          android:layout_width="match_parent"
@@ -24,11 +25,11 @@
                  android:background="@drawable/sweden_img" />
             <LinearLayout
                 android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
                 <TextView
                     android:layout_weight="1"
-                    android:layout_marginLeft="20sp"
+                    android:layout_marginStart="20sp"
                     android:layout_marginTop="400dp"
                     android:fontFamily="@font/astgina_mardr"
                     android:textColor="@color/white"
@@ -37,12 +38,160 @@
                     android:layout_height="wrap_content"
                     android:text="Sweden"
                     />
-
-
+                <ImageButton
+                    android:layout_marginStart="135dp"
+                    android:layout_marginTop="394dp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/arrow_forword"
+                    />
             </LinearLayout>
          </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_gravity="center"
+             android:layout_width="300dp"
+             android:layout_marginTop="40dp"
+             app:cardCornerRadius="20sp"
+             android:layout_height="450dp">
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="450dp"
+                 android:background="@drawable/bali" />
+             <LinearLayout
+                 android:orientation="horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:layout_weight="1"
+                     android:layout_marginLeft="20sp"
+                     android:layout_marginTop="380dp"
+                     android:fontFamily="@font/astgina_mardr"
+                     android:textColor="@color/white"
+                     android:textSize="20sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Bali \nIndonesia"
+                     android:layout_marginBottom="10dp"
+                     />
+                 <ImageButton
+                     android:layout_marginStart="130dp"
+                     android:layout_marginTop="394dp"
+                     android:layout_weight="1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/arrow_forword"
+                     />
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_gravity="center"
+             android:layout_width="300dp"
+             android:layout_marginTop="40dp"
+             app:cardCornerRadius="20sp"
+             android:layout_height="450dp">
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="450dp"
+                 android:background="@drawable/the_blue_city_jodhpur" />
+             <LinearLayout
+                 android:orientation="horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:layout_weight="1"
+                     android:layout_marginStart="20sp"
+                     android:layout_marginTop="380dp"
+                     android:fontFamily="@font/astgina_mardr"
+                     android:textColor="@color/white"
+                     android:textSize="20sp"
+                     android:layout_marginBottom="10dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="The Blue City \nIndia"
+                     />
+                 <ImageButton
+                     android:layout_marginStart="80dp"
+                     android:layout_marginTop="394dp"
+                     android:layout_weight="1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/arrow_forword"
+                     />
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_gravity="center"
+             android:layout_width="300dp"
+             android:layout_marginTop="40dp"
+             app:cardCornerRadius="20sp"
+             android:layout_height="450dp">
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="450dp"
+                 android:background="@drawable/venice_canals" />
+             <LinearLayout
+                 android:orientation="horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:layout_weight="1"
+                     android:layout_marginStart="20sp"
+                     android:layout_marginTop="400dp"
+                     android:fontFamily="@font/astgina_mardr"
+                     android:textColor="@color/white"
+                     android:textSize="20sp"
+                     android:layout_marginBottom="5dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Venice Canals"
+                     />
+                 <ImageButton
+                     android:layout_marginStart="85dp"
+                     android:layout_marginTop="394dp"
+                     android:layout_weight="1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/arrow_forword"
+                     />
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_gravity="center"
+             android:layout_width="300dp"
+             android:layout_marginTop="40dp"
+             app:cardCornerRadius="20sp"
+             android:layout_height="450dp">
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="450dp"
+                 android:background="@drawable/grand_canyon" />
+             <LinearLayout
+                 android:orientation="horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:layout_weight="1"
+                     android:layout_marginStart="20sp"
+                     android:layout_marginTop="400dp"
+                     android:fontFamily="@font/astgina_mardr"
+                     android:textColor="@color/white"
+                     android:textSize="20sp"
+                     android:layout_marginBottom="5dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Grand Canyon"
+                     />
+                 <ImageButton
+                     android:layout_marginStart="85dp"
+                     android:layout_marginTop="394dp"
+                     android:layout_weight="1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/arrow_forword"
+                     />
+             </LinearLayout>
+         </androidx.cardview.widget.CardView>
      </LinearLayout>
-
-
   </ScrollView>
 </LinearLayout>
